@@ -5,17 +5,17 @@
 
 ### Feature Tasks and Requirements
 
-1. [ ] Scrape a Wikipedia page of your choosing and record which passages need citations.
+1. [x] Scrape a Wikipedia page of your choosing and record which passages need citations.
 E.g. History of Mexico has a few “citations needed”.
-2. [ ] Your web scraper should report the number of citations needed.
-3. [ ] Your web scraper should identify those cases AND include the relevant passage. E.g. Citation needed for “lorem spam and impsum eggs”
-4. [ ] Consider the “relevant passage” to be the parent element that contains the passage, often a paragraph element.
+2. [x] Your web scraper should report the number of citations needed.
+3. [x] Your web scraper should identify those cases AND include the relevant passage. E.g. Citation needed for “lorem spam and impsum eggs”
+4. [x] Consider the “relevant passage” to be the parent element that contains the passage, often a paragraph element.
 
 ### Implementation Notes
 
 1. [x] Module must be named scraper.py
-2. [ ] Create function named get_citations_needed_count
-3. [ ] takes in a url string and returns an integer.
+2. [x] Create function named get_citations_needed_count
+3. [x] takes in a url string and returns an integer.
 4. [ ] Create function named get_citations_needed_report
 5. [ ] takes in a url string and returns a report string
 6. [ ] the string should be formatted with each citation listed in the order found.

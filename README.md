@@ -16,9 +16,9 @@ E.g. History of Mexico has a few “citations needed”.
 1. [x] Module must be named scraper.py
 2. [x] Create function named get_citations_needed_count
 3. [x] takes in a url string and returns an integer.
-4. [ ] Create function named get_citations_needed_report
-5. [ ] takes in a url string and returns a report string
-6. [ ] the string should be formatted with each citation listed in the order found.
+4. [x] Create function named get_citations_needed_report
+5. [x] takes in a url string and returns a report string
+6. [x] the string should be formatted with each citation listed in the order found.
 
 **For example:**
 
@@ -31,11 +31,7 @@ etc.
 
 ### Links and Resources
 
-[]()
-[]()
+[Beautiful Soup Docs](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression)
 
 
-
-
-title=Wikipedia:Citation needed
 

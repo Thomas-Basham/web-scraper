@@ -26,9 +26,10 @@ def get_citations_needed_report(url_string):
     hearsay = soup.findAll("sup", class_="Template-Fact")
 
     unfounded_claims = ''
-    for message in hearsay:
 
-        unfounded_claims += (message.parent.text + '\n')
+    for i in hearsay:
+        unfounded_claims += (i.parent.text + '\n')
+
     time.sleep(1)
     return unfounded_claims
 
